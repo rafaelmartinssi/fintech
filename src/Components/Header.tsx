@@ -1,7 +1,7 @@
-import { DateRange } from "./DateRange"
-import { Meses } from "./Meses"
+import DateRange from "./DateRange"
+import Meses from "./Meses"
 
-export const Header = () => {
+const Header = () => {
     return (
         <div className="mb">
             <div className="mb">
@@ -11,3 +11,5 @@ export const Header = () => {
         </div>
     )
 }
+
+export default Header;

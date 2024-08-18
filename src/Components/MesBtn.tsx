@@ -25,7 +25,7 @@ const styleButton: React.CSSProperties = {
     textTransform: "capitalize",
 }
 
-export const MesBtn = ({n}: {n:number}) => { 
+const MesBtn = ({n}: {n:number}) => { 
     const {setInicio, setFinal} = useData();
     function setMes (n: number) {
         const date = new Date();
@@ -42,3 +42,5 @@ export const MesBtn = ({n}: {n:number}) => {
         </button>
     )
 }
+
+export default MesBtn;

@@ -1,5 +1,7 @@
-export const Sidenav = () => {
+const Sidenav = () => {
     return (
         <div></div>
     )
 }
+
+export default Sidenav;

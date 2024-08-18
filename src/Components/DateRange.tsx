@@ -1,7 +1,7 @@
-import { DateInput } from "./DateInput";
+import DateInput from "./DateInput";
 import { useData } from "../Context/DataContext";
 
-export const DateRange = () => {
+const DateRange = () => {
     const { 
         inicio, 
         setInicio, 
@@ -26,3 +26,5 @@ export const DateRange = () => {
         </form>
     )
 }
+
+export default DateRange;

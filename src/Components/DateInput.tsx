@@ -25,7 +25,7 @@ const inputStyle: React.CSSProperties = {
     fontFamily: "monospace",
 }
 
-export const DateInput = ({ id, label, ...props }: DateInputProps) => {
+const DateInput = ({ id, label, ...props }: DateInputProps) => {
     return (
         <div>
             <label style={labelStyle} htmlFor={id}>{label}</label>
@@ -33,3 +33,5 @@ export const DateInput = ({ id, label, ...props }: DateInputProps) => {
         </div>
     )
 }
+
+export default DateInput;
